@@ -1,0 +1,123 @@
+body{
+	background: url("images/15df2d52c34b21c28b26de9cf168d9ee.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.box1{
+	border: 1px solid black;
+	background-color: lightblue;
+	height: 30px;
+}
+ul{
+	float: left;
+	color: white;
+}
+ul li{
+	margin-top: -10px;
+	float: left;
+	position: relative;
+	left: 300%;
+	width: 100px;
+	font-size: 14px;
+	font-family: barlow condensed, sans-serif;
+	list-style-type: none;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+h5{
+	margin-top: 1px;
+	color: white;
+	margin: 7px 12px;
+	position: relative;
+	left: -18%;
+	font-family: barlow condensed, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bolder;
+}
+h5 span{
+	color: black;
+}
+.subbox{
+	border: 5px solid transparent;
+	background-color: grey;
+	height: 50px;
+}
+ol{
+	float: left;
+}
+ol li{
+	display: inline-block;
+	margin-left: 30px;
+	position: 5px;
+    text-align: center;
+	line-height: 20px;
+	font-family: barlow condensed, cursive;
+}
+ol li a{
+	text-decoration: none;
+	color: black;
+}
+ol li a{
+	border-bottom: 2px solid red;
+}
+/* Mimmie*/
+.mimmie{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.attire img{
+	display: flex;
+	flex-direction: row;
+	float: right;
+    position:absolute;
+	border: solid 1px black;
+	width: 245px;
+	height:185px;
+}
+.mimmie .info{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
+.mimmie .info a{
+	font-size: 1em;
+	color: #fff;
+	background: #e6080d;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 0px;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	border-radius: 5px;
+	box-shadow: 4px 2px 10px #e6080d;
+}
+.mimmie .info a:hover{
+	transform: scale(0.9);
+	background:blue;
+	color: #fff;
+}
+.mimmie .info h3{
+	color: aliceblue;
+	font-family: initial;
+}
+.mimmie .info h1{
+	color: black;
+	font-family: sans-serif;
+}
+.footer{
+	position: fixed;
+	width: 100%;
+	color: crimson;
+	text-align: center;
+	bottom: 0;
+	background: #272727;
+}
